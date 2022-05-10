@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.qHdr {
+    font-family: 'Baskerville', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-shadow: 0px 0px 3px #686868, 1px 1px 20px #a6dbe5;
+}
+
+.qRow:nth-child(even) {
+    background: #fff;
+    padding: 6px 30px 1px;
+}
+.qRow:nth-child(odd) {
+    background: #f6f6f6;
+    padding: 9px 30px 3px;
+}
+
+.mainHdr{
+    background-image: url("../layout/images/header.jpg");
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #0dcaf0;
+}
